@@ -7,7 +7,7 @@ const Landing = () => {
         <div>
           <p>Welcome to</p>
           <p className='text-4xl font-bold text-[#310104] border-b-2 my-4'>AlgoTutor</p>
-          <p className='text-xl'>Your one stop shop for all things algos. Here you can learn new algorithms, or refresh old skills. Whether you know nothing or are getting ready for a job interview, AlgoTutor is for you! Click below to start learning.</p>
+          <p className='text-xl text-[#310104]'>Your one stop shop for all things algos. Here you can learn new algorithms, or refresh old skills. Whether you know nothing or are getting ready for a job interview, AlgoTutor is for you! Click below to start learning.</p>
           <p></p>          
         </div>
 
