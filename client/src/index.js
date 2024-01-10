@@ -2,13 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Landing from './components/Landing';
+import Landing from './pages/Landing';
+import Home from './pages/Home'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Landing/>
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<Landing/>}/>
+        <Route path="/home" element={<Home/>}/>
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
