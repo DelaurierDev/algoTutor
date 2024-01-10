@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 const Landing = () => {
   return (
@@ -10,8 +11,10 @@ const Landing = () => {
           <p className='text-xl text-[#310104]'>Your one stop shop for all things algos. Here you can learn new algorithms, or refresh old skills. Whether you know nothing or are getting ready for a job interview, AlgoTutor is for you! Click below to start learning.</p>
           <p></p>          
         </div>
-
-        <button className='h-[70px] w-[300px] bg-[#310104] font-bold rounded text-[#edf4ed]'>Get Started!</button>
+        <Link to ="/home" >
+          <button className='h-[70px] w-[300px] bg-[#310104] font-bold rounded text-[#edf4ed]'>Get Started!</button>
+        </Link>
+        
         </div>
       
     </div>
