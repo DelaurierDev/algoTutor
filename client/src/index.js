@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Landing from './pages/Landing';
 import Searching from './pages/Searching';
+import Linear from './pages/Linear'
 import Home from './pages/Home'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
@@ -15,6 +16,7 @@ root.render(
         <Route index element={<Landing/>}/>
         <Route path="/home" element={<Home/>}/>
         <Route path="/searching" element={<Searching/>}/>
+        <Route path="/search/linear" element={<Linear/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

@@ -10,7 +10,7 @@ const Searching = () => {
         <p>Being able to search through a set of data is a very important thing to know how to do.  <strong>Click</strong> between the buttons below to view different searching algorithms.</p>
       </div>
       <div className='h-[600px] flex flex-col items-center justify-center '>
-        <Link to ="/searching" >
+        <Link to ="/search/linear" >
           <button className='h-[70px] w-[300px] bg-[#310104] font-bold rounded text-[#edf4ed] my-7'>Linear Search</button>
         </Link>
         <Link to ="/sorting" >
