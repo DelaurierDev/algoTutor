@@ -13,7 +13,7 @@ const Searching = () => {
         <Link to ="/search/linear" >
           <button className='h-[70px] w-[300px] bg-[#310104] font-bold rounded text-[#edf4ed] my-7'>Linear Search</button>
         </Link>
-        <Link to ="/sorting" >
+        <Link to ="/search/binary" >
           <button className='h-[70px] w-[300px] bg-[#310104] font-bold rounded text-[#edf4ed] my-7'>Binary Search</button>
         </Link>
         <Link to ="/sorting" >

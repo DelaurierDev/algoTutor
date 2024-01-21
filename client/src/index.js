@@ -4,6 +4,7 @@ import './index.css';
 import Landing from './pages/Landing';
 import Searching from './pages/Searching';
 import Linear from './pages/Linear'
+import Binary from './pages/Binary'
 import Home from './pages/Home'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
@@ -17,6 +18,7 @@ root.render(
         <Route path="/home" element={<Home/>}/>
         <Route path="/searching" element={<Searching/>}/>
         <Route path="/search/linear" element={<Linear/>}/>
+        <Route path = "/search/binary" element = {<Binary/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
