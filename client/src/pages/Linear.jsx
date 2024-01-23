@@ -14,7 +14,6 @@ const Linear = () => {
                 </p>
                 <h2 className='text-2xl font-bold'>Time Complexity:</h2>
                 <p>O(n) or O(1) if the target is found on the first iteration.</p>
-                <h2 className='text-2xl font-bold'>Example:</h2>
                 
             </div>
             
