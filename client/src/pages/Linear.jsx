@@ -7,6 +7,7 @@ const Linear = () => {
         <Navbar/>
         <div>
             <div>
+                <h1>Linear Search</h1>
                 <h2 className='text-2xl font-bold'>Overview:</h2>
                 <p>Linear search is a great tool to use, but only in specific situations.  Linear search is when you iterate through a set of data, one by one, and check if the value matches the target.
                     This algorithm can work great but it takes a while.  Say you had an array of 10 integers, the max amount of iterations you would have is 10.  That's not bad right?  Now imagine you have an array of 1,000,000 integers.
