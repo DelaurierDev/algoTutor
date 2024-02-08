@@ -5,7 +5,7 @@ const Jump = () => {
   return (
     <div>
       <Navbar/>
-      <h1>Interpolation Search</h1>
+      <h1>Jump Search</h1>
                 <h2 className='text-2xl font-bold'>Overview:</h2>
                 <p>Binary search is a nice quick way to find a target in a sorted set of data.  To use binary search you must be able to access any element of th data structure in constant time, and the data structure must be sorted.
                     Binary search started by setting the minimum to the first element of the data, and maximum as the last element of the data.  It then sets the medium as the halfway point between the index of the maximum and the index of the minimum.
