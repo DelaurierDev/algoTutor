@@ -13,7 +13,7 @@ const Jump = () => {
 
                 </p>
                 <h2 className='text-2xl font-bold'>Time Complexity:</h2>
-                <p>O(log n) or O(1) if the target is found on the first iteration.</p>
+                <p>O(root(n))</p>
     </div>
   )
 }
